@@ -1,4 +1,4 @@
-# wwww.56562.tk
+# www.56562.tk
 書くのだるいからサイトのコードを見て理解してくれ()
 
 参考＆使わせてもらったコード:https://github.com/FujiwaraAzusa/2000-chatting-system-dev
