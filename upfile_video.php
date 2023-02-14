@@ -59,7 +59,10 @@
   if ($hour > 23) {
     $date += 1;
     $hour -= 24;
-  }
+   }
+	if (!strlen($_COOKIE['username'])) {
+        $_COOKIE['username'] = "名無し";
+ }
   // Set error display
   ini_set("display_errors", "Off");
 

@@ -80,7 +80,7 @@
   </head>
   <body>
     <h2>チャット(掲示板スタイル)</h2>
-    <h4>Ver 0.2</h4>
+    <h4>Ver 0.21</h4>
     <form action="publicinput.php" method="post">
       <label>名前</label>
       <input type="text" size="10" autocomplete="name" name="name" value="<?php 
