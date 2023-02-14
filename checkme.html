@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/56562.png">
+    <title>注意</title>
+    <style>
+      /* Change color of all text */
+      h1, h2, h3, p, a, span {
+        color: white;
+      }
+
+      /* Change border color of table */
+      table {
+        border-color: c;
+      }
+      
+      /* Change color of text in class example */
+      .example {
+        color: #f0f8ff;
+      }
+
+      /* Style for the back button */
+      button {
+        background-color: #1D9BF0;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+      /* Style for the form */
+      form {
+        padding: 10px;
+        border: solid 2px #f0f8ff;
+        background-color: #153E4D;
+        text-align: center;
+        border-radius: 10px;
+      }
+
+      /* Style for the input text field */
+      input[type="text"] {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        margin: 5px;
+        width: 200px;
+      }
+
+      /* Style for the submit button */
+      input[type="submit"] {
+        background-color: #1D9BF0;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(21, 32, 43);">
+    <button type="button" onclick="history.back()">前のページへ戻る</button>
+    <br>
+    <h2>注意事項</h2>
+    <p>
+      文字を入力して送信する時、自動で&lt;p&gt;&lt;/p&gt;で覆われて表示されます。
+    </p>
+    <p>
+      &lt;や&gt;、&quot;を入力したいときは以下の文字列を変わりに入力してください。
+        </p>
+        <table border="1">
+            <tr>
+                <th><font color="#f0f8ff">表示させたい文字</th><th><font color="#f0f8ff">代わりに打つ文字</th>
+            </tr>
+            <tr>
+                <td><font color="#f0f8ff">&amp;</td><td><font color="#f0f8ff">&amp;mp;</td>
+            </tr>
+            <tr>
+                <td><font color="#f0f8ff">&lt;</td><td><font color="#f0f8ff">&amp;lt;</td>
+            </tr>
+            <tr>
+                <td><font color="#f0f8ff">&gt;</td><td><font color="#f0f8ff">&amp;gt;</td>
+            </tr>
+            <tr>
+                <td><font color="#f0f8ff">&quot;</td><td><font color="#f0f8ff">&amp;uot;</td>
+            </tr>
+            <tr>
+                <td><font color="#f0f8ff">&apos;</td><td><font color="#f0f8ff">&amp;apos;</td>
+            </tr>
+        </table>
+        <p>悪意のあるコードや、重くなるスクリプト、HTML4で再生できないコンテンツは入れないでください。</p>
+        <h2>ここにスクリプトを入力すれば、チャット欄に送信できます。</h2>
+        <p>&lt;img src="./example.jpg" width=200px&gt;って感じで入れてください</p>
+        <p>画像は横200pxまで</p>
+        <form style="padding: 10px; border: solid 2px #f0f8ff;" action="inputscriptforpublic.php" method="post">
+			<span>名前　　　 </span><input type="text" size="10" autocomplete="name" name="name"><br>
+			<span>スクリプト </span><input type="text" size="30" autocomplete="no" name="maintext">
+			<input type="submit" value="送信" name="mode">
+		</form>
+
+        </form>
+    </body>
+</html>
