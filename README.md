@@ -1,5 +1,7 @@
 # www.56562.tk
 書くのだるいからサイトのコードを見て理解してくれ()
+できるだけデーターベース使いたくない <br>
+
 
 参考＆使わせてもらったコード:https://github.com/FujiwaraAzusa/2000-chatting-system-dev
 
